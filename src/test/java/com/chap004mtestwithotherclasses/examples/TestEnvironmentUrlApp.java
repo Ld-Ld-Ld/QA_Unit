@@ -8,7 +8,7 @@ public class TestEnvironmentUrlApp {
 
     @Test
     public void canGetUrlStatically(){
-        assertEquals("Returns hard coded URL", "http://192.123.0.3:67", TestAppEnv.getUrl());
+        assertEquals("Returns hard coded URL", "http://192.123.0.367", TestAppEnv.getUrl());
     }
 
     @Test

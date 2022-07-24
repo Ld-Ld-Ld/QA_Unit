@@ -13,7 +13,7 @@ public class IntegerExamplesTest {
         String fiveS = "5";
         Integer gotfromValueOf = Integer.valueOf(fiveS);
         int gotfromParseInt = Integer.parseInt(fiveS);
-        assertEquals("int value returns int 4", 4, gotfromValueOf.intValue());
+        assertEquals("int value returns int 5", 5, gotfromValueOf.intValue());
         assertEquals("int value returns int 5", 5, gotfromParseInt);
         assertEquals(4,4);
 

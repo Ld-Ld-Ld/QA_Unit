@@ -7,6 +7,6 @@ public class TestAppEnv {
 
 
     public static String getUrl(){
-        return "http:// + DOMAIN" + "PORT";
+        return "http://" + DOMAIN + PORT;
             }
 }
